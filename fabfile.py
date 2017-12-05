@@ -60,6 +60,8 @@ def build():
     Build dist package.
     '''
 
+    if not os.path.exists('dist/'):
+        os.makedirs('dist/')
     # 所有需要打包的文件
     includes = ['src', 'requirements.txt', 'run.py']
     # 忽略的文件
