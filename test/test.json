@@ -1,0 +1,44 @@
+{
+    "button": [
+        {
+            "type": "click",
+            "name": "开发指引",
+            "key": "mpGuide"
+        },
+        {
+            "name": "公众平台",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "更新公告",
+                    "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                },
+                {
+                    "type": "view",
+                    "name": "接口权限说明",
+                    "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1418702138&token=&lang=zh_CN"
+                },
+                {
+                    "type": "view",
+                    "name": "返回码说明",
+                    "url": "http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1433747234&token=&lang=zh_CN"
+                }
+            ]
+        },
+        {
+            "name": "菜单",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "搜索",
+                    "url": "http://www.soso.com/"
+                },
+                {
+                    "type": "click",
+                    "name": "赞一下我们",
+                    "key": "V1001_GOOD"
+                }
+            ]
+        }
+    ]
+}

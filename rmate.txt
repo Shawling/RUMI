@@ -1,0 +1,12 @@
+服务器执行以下命令安装rmate：
+wget https://raw.githubusercontent.com/sclukey/rmate-python/master/bin/rmate
+chmod +x ./rmate
+mv ./rmate /usr/local/bin/rmate
+
+本机安装openssh
+
+vscode安装remote vscode
+
+命令面板选择 > Remote: start server
+ssh -R 52698:127.0.0.1:52698 root@120.78.228.243
+rmate -p 52698 文件名
