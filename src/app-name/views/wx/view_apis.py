@@ -16,9 +16,13 @@ from coroweb import get, logger, post
 
 @get('/wx')
 async def wx_profile_setting(*, signature, timestamp, nonce, echostr):
+    """ 用于微信服务器验证配置信息
+
+    """
+
     if not signature or not timestamp or not nonce or not echostr:
         return "hello, this is handle view"
-    token = 'rumi-wesmart'
+    token = 'rumi'
     l1 = [token, timestamp, nonce]
     l1.sort()
     sha1 = hashlib.sha1()
@@ -50,3 +54,4 @@ async def wx_chat(request):
             return reply.Msg().send()
     else:
         return reply.Msg().send()
+

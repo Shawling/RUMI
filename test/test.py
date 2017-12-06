@@ -56,3 +56,5 @@ logger.addHandler(fh_debug)
 logger.debug('for debug')
 logger.info('for info')
 logger.error('for error')
+
+{'a': 1, 'b': 2, 'c': 3}
